@@ -44,16 +44,26 @@ div + .jumbotron-content-h1 {
 @media only screen and (max-width: 479px) {}
 /**/
 
-
+/* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (max-width: 767px) {
 	#demo {
 	width: 100% !important;
 	margin: auto;
 }
+}
 
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#map-bulan{
+		width: 100% !important;
+	margin: auto;
+
+	}
 
 }
 
+#ul_items{
+	color:#f64668 ;
+}
 #about_me_section{
 	color: #f64668;
 	font-family: 'Merriweather', serif;
@@ -82,6 +92,7 @@ div + .jumbotron-content-h1 {
 	font-family: 'Merriweather', serif;
 	background-image: linear-gradient(to right, #660f56 , #AE2D66);
 	padding: 0 !important;
+	color: #f64668;
 }
 
 #about_me_div {
@@ -297,4 +308,7 @@ span.hover_effect_name:hover, span.hover_effect_name:active {
 }
 .hover_effect_name {
 	font-size: 55px;
+	width: 50px;
+	height: 50px;
 }
+
