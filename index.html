@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Mono&display=swap" rel="stylesheet">
+	<!-- end font -->
+
+	<!-- bootstrap CSS -->
+    <link   rel="stylesheet" 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" 
+            crossorigin="anonymous">
+
+   <!-- end bootstrap css -->
+   <!-- fontawesome -->
+		<script src="https://kit.fontawesome.com/79e69d03fb.js" crossorigin="anonymous"></script>
+   <!--  -->
+    
+    <!-- style sheet css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="icon" href="./images/ms.png" style="width: 5px;">
+
+    <!-- end style sheet css -->
+
+</head>
+<body>
+
+	<!-- navbar -->
+	<nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark ">
+          <a class="navbar-brand pl-3" href="#">
+          	<img id="logo" src="./images/ms.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active ">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#anchor_about_me">About Me</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#anchor_contact">Contact Me</a>
+              </li>
+              <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#anchor_projects">Projects</a>
+                </div>
+                  
+                  
+              </li>
+              <!-- <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Tools
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#Core-Tools">Tools</a>
+                  <a class="dropdown-item" href="#Other-Tools">Other Tools</a>
+                  
+              </li> -->
+             
+         </div>
+    </nav>
+
+    <!-- end navbar -->
+		<!-- main page -->
+	
+		<!-- jumbotron -->
+
+	<div id="my_jumbotron" class="jumbotron jumbotron-fluid pt-5">
+  		<div class="container py-4">
+  			<p></p>
+  			<p></p>
+		    <h1 class="jumbotron-content-h1">Hi!, </h1>
+		    <h1 class="jumbotron-content-h1">I'm Mark Elvin G. Simora</h1>
+		    
+		    <h2 id="jumbotron-content-h2">FullStack-Developer in the making.</h2>
+		    <p id="jumbotron-content-p">I'm a bootcamper at Zuitt and learning how to be a Full Stack Web Developer.</p>
+	  	</div>
+  </div>
+		<!-- end jumbotron -->
+
+ <p class=spacing></p>
+      
+       <div id="anchor_about_me" class="container-fluid pt-5">    
+					<div id="about_me_div" class="row justify-center  py-5 px-3">
+                <div id="div_Aboutme" class="col-md-8  order-2 order-md-2 py-4 mt-3">
+                    <h2 id=about_me_section>About Me</h2>
+                    <p class="about_me_p p-3">Hey there! I'm Mark Elvin G. Simora an aspiring webdeveloper from Bulan Sorsogon.</p>
+
+										<p class="about_me_p p-2">I'm 27 years of age currently enrolled at Zuitt Bootcamp to be a Full Stack web developer.
+										I'm currently interested most into front-end web designing, I want to use some of the things I learned through self learning and during the bootcamp hopefuly to become a front-end webdeveloper. </p>
+                </div>
+                <div class="col-md-4  order-1 order-md-1">
+                    <img  class="picme img-fluid" src="./images/gradpic400.jpg"/>
+                </div>
+       		</div>
+		
+       	</div> 
+
+<p class=spacing></p>
+
+
+<!-- carousel -->
+
+
+
+<div id="demo" class="carousel slide col-md-12  col-sm-auto " data-ride="carousel">
+<h1 id="anchor_projects">My Projects</h1>
+  <!-- Indicators -->
+  <ul class=" carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+      <div class="container py-5">
+				  
+				  <div class="card mx-auto">
+				    <img class="card-img-top" src="./images/portfolio.jpg" alt="Card image">
+				    <div class="card-body">
+				    		<div class="py-1">
+				    			<span class="span-html">HTML</span> 
+				    			<span class="span-CSS">CSS</span>
+				    			<span class="span-BS">BootStrap</span>
+				    		</div>
+				      <h4 class="card-title">My Portfolio</h4>
+				      <p class="card-text">My very own Portfolio, as a web deveoper.</p>
+				      <a href="#navbar" class="btn btn-primary">See Profile</a>
+				    </div>
+		  		</div>
+		  </div>
+
+    </div>
+    <div class="carousel-item">
+
+    	<div class="container py-5">
+				  <div class="card mx-auto">
+				    <img class="card-img-top" src="./images/ecomerce-sneakers.jpg" alt="Card image">
+				    <div class="card-body">
+				    		<div class="py-1">
+				    			<span class="span-html">HTML</span> 
+				    			<span class="span-CSS">CSS</span>
+				    			<span class="span-BS">BootStrap</span>
+				    		</div>
+				      <h4 class="card-title">Ecommerce-Sneakers</h4>
+				      <p class="card-text">My simple Ecommerce website for sneakers.</p>
+				      <a href="#navbar" class="btn btn-primary">See Profile</a>
+				    </div>
+		  		</div>
+		  </div>
+      
+
+    </div>
+
+    
+  
+  </div>
+  
+  <!-- Left and right controls -->
+  <div id="carousel-control">
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+</div>
+<!--  end carousel -->
+
+<p class=spacing></p>
+
+  <!-- map -->
+<div id="anchor_contact" class="container pt-3">
+<div class="row">
+			<div class="col-md-6 my-4">
+				<h2>Find Me!</h2>
+				<iframe id="map-bulan" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14086.903301865861!2d123.87467075197407!3d12.665617114116964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a0d6b9faa88aaf%3A0x7ba5be03e6198c6e!2sBulan!5e1!3m2!1sen!2sph!4v1646254865314!5m2!1sen!2sph" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+			
+			<div class="col-md-6 my-4">
+
+
+				<!-- contact me -->
+				<h2>Contact Me!</h2>
+				<form id="contact_form">
+
+						<div class="form-group">
+						<label for="fname">First name:</label><br>
+ 						 <input class="form-control" type="text" id="fname" name="fname" value="">
+						</div>
+
+						<div class="form-group">
+						<label for="txt-email">Email:</label>
+						<input id="txt-email" class="form-control" type="email" name="email" placeholder="name@example.com">
+						</div>
+						
+						
+					
+						<div class="form-group">
+						<label for="txt-message">Message Box:</label>
+						<textarea id="txt-message" class="form-control" rows="3">
+						</textarea>
+						</div>
+					
+					<button class="btn btn-outline-primary" type="submit">Submit</button>
+					<button class="btn btn-outline-danger" type="reset">Reset</button>
+				
+				</form>
+			
+					
+			</div>
+  </div>
+  </div>
+
+<!-- end contact me form -->
+
+<p class="py-3"></p>
+
+<a href="#"><p class="text-center text-danger">Back to top</p></a>
+
+	<!-- pre-footer -->
+
+	<div id="pre-footer" class="container-fluid">
+		<div class="row">
+
+			
+				<div class="col-md-6 offset-md-3 text-center">
+						<h4 class="follow">Follow Me</h4>
+						<a class="socialmedia_icons"  href="#"><i class="fa-brands fa-twitter px-2" aria-hidden="true"></i></a>
+						<a class="socialmedia_icons" href="#"><i class="fa-brands fa-facebook px-2" aria-hidden="true"></i></a>
+						<a class="socialmedia_icons" href="https://gitlab.com/simora.mark"><i class="fa-brands fa-gitlab px-2" aria-hidden="true"></i></a>
+						<a class="socialmedia_icons" href="#"><i class="fa-brands fa-instagram px-2" aria-hidden="true"></i></a>
+
+				</div>
+
+		</div>		
+	</div>
+
+
+	<!-- footer -->
+	
+	<div id="footer" class=" text-center text-light p-3">
+            <p class="m-0">Designed by Mark Elvin.</p>
+     </div>
+
+  <!-- end footer -->
+
+
+
+	<!-- js dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,300 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #0a192f;
+
+}
+
+h2	{
+	
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: #fe9677;
+}
+
+div + .jumbotron-content-h1 {
+	font-family: 'Roboto Mono', monospace;
+	color: #fe9677;
+
+}
+
+
+/*media*/
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+/**/
+
+
+@media only screen and (max-width: 767px) {
+	#demo {
+	width: 100% !important;
+	margin: auto;
+}
+
+
+}
+
+#about_me_section{
+	color: #f64668;
+	font-family: 'Merriweather', serif;
+	
+}
+
+.jumbotron-content-h1 {
+	color: #f64668;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#jumbotron-content-h2 {
+	color: #984063;
+	text-align: unset !important;
+	
+}
+
+#jumbotron-content-p {
+	color: #984063;
+	font-family: 'Roboto Mono', monospace;
+	
+
+}
+
+#navbar {
+	font-family: 'Merriweather', serif;
+	background-image: linear-gradient(to right, #660f56 , #AE2D66);
+	padding: 0 !important;
+}
+
+#about_me_div {
+	
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#my_jumbotron {
+/*
+	background: #EB5757;   fallback for old browsers 
+	background: -webkit-linear-gradient(to top, #000000, #EB5757);  Chrome 10-25, Safari 5.1-6 
+	background: linear-gradient(to top, #000000, #EB5757);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+	font-family: 'Roboto Mono', monospace;
+*/
+	
+	background-color: #0a192f;
+	background-image: linear-gradient(to right, #0a192f , #41436a);
+	padding-top: 20px;
+
+	
+	/*#41436A*/
+
+}
+
+#logo {
+
+	width:80px;
+	border-radius: 180px;
+
+}
+
+#anchor_projects{
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #fe9677;
+}
+
+
+#contact_form {
+	font-family: 'Roboto Mono', monospace;
+	color: #fe9677;
+}
+
+
+
+#map-bulan{
+	
+	width: 500px;
+	height: 350px;
+	border:0;
+
+}
+
+#contact_me {
+	/*width: 400px;*/
+	/*margin-left: auto;
+	margin-right: auto;
+	display: block;*/
+	color: yellow;
+}
+
+
+#pre-footer > div {
+	font-family: 'Merriweather', serif;
+	background-color: #0a192f;
+	background-image: linear-gradient(to right, #0a192f , #41436a);
+	padding: 0 !important
+
+	/*#0a192f*/
+
+	
+	display: inline-block;
+	
+	vertical-align: top;
+
+}
+
+
+
+#footer {
+	font-family: 'Merriweather', serif;
+	background-image: linear-gradient(to right, #984063 , #41436a);
+	padding: 0 !important;
+	color: #fe9677;
+}
+
+#demo {
+	width: 50%;
+	margin: auto;
+}
+
+/*#carousel-control {
+	width: 800px;
+}
+*/
+.picme {
+	border-radius: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+}
+
+.about_me_p {
+	font-family: 'Roboto Mono', monospace;
+	color: #984063;
+	/*text-align: justify-center;*/
+}
+
+
+.card-img-top {
+	width: 100%;
+}
+
+.span-html {
+	background-color: Orange;
+	color: white;
+	border-radius: 70px;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: auto;
+}
+
+.span-CSS {
+	background-color: Blue;
+	color: white;
+	border-radius: 70px;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: auto;
+}
+
+.span-BS {
+	background-color: purple;
+	color: white;
+	border-radius: 70px;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: auto;
+}
+
+.card-title{
+	font-family: 'Merriweather', serif;
+
+}
+
+.card-text {
+	font-family: 'Roboto Mono', monospace;
+
+}
+
+.carousel-inner {
+  /* width: 500px;
+   height: 550px;*/
+   margin: auto;
+   padding-bottom: 40px;
+   width:100%;
+   max-height: 550px !important;
+}
+
+.carousel-item{
+
+}
+
+.card{
+	width:500px
+}
+
+.carousel-indicators {
+	margin: auto;
+}
+
+.carousel-indicators li {
+	background-color: #f64668;
+}
+
+.fa-brands {
+	color: #984063;
+}
+
+a.socialmedia_icons:hover, a.socialmedia_icons:active {
+	
+  /*color: #f64668;*/
+
+  color: #f64668;
+  text-shadow: 0 0 3px #f64668;
+  font-size: 150%;
+  margin: 10px;
+  height: 60px;
+  width: 60px;
+
+}
+
+.follow {
+	color: #f64668;
+}
+
+.spacing {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+span.hover_effect_name:hover, span.hover_effect_name:active {
+  
+  color: #f64668;
+  text-shadow: 0 0 3px #f64668;
+  font-size: 150%;
+  margin: 10px;
+  height: 60px;
+  width: 60px;
+
+}
+.hover_effect_name {
+	font-size: 55px;
+}
