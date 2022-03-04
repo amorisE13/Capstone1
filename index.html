@@ -11,27 +11,24 @@
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Mono&display=swap" rel="stylesheet">
 	<!-- end font -->
 
+	<!-- fontawesome -->
+		<script src="https://kit.fontawesome.com/79e69d03fb.js" crossorigin="anonymous"></script>
+   <!--  -->
+
+   <link rel="icon" href="./images/ms.png">
+
 	<!-- bootstrap CSS -->
     <link   rel="stylesheet" 
             href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" 
             crossorigin="anonymous">
-
-   <!-- end bootstrap css -->
-   <!-- fontawesome -->
-		<script src="https://kit.fontawesome.com/79e69d03fb.js" crossorigin="anonymous"></script>
-   <!--  -->
     
     <!-- style sheet css -->
     <link rel="stylesheet" href="./style.css">
 
-    <link rel="icon" href="./images/ms.png" style="width: 5px;">
-
-    <!-- end style sheet css -->
-
 </head>
 <body>
 
-	<!-- navbar -->
+<!-- navbar -->
 	<nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark ">
           <a class="navbar-brand pl-3" href="#">
           	<img id="logo" src="./images/ms.png" alt="Logo">
@@ -41,7 +38,7 @@
           </button>
 
         <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul id="nav1" class="navbar-nav mr-auto">
               <li class="nav-item active ">
                 <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
               </li>
@@ -52,37 +49,28 @@
                 <a class="nav-link" href="#anchor_contact">Contact Me</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="##anchor_projects">Projects</a>
+                <a class="nav-link" href="#anchor_projects">Projects</a>
               </li>
-              <!-- <li class="nav-item active dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                  Projects
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#anchor_projects">Projects</a>
-                </div>
-              </li> -->
-            </ul>
-              <!-- <li class="nav-item active dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                  Tools
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#Core-Tools">Tools</a>
-                  <a class="dropdown-item" href="#Other-Tools">Other Tools</a>
-                  
-              </li> -->
-             
+            
+            </ul>  
          </div>
     </nav>
 
     <!-- end navbar -->
-		<!-- main page -->
-	
-		<!-- jumbotron -->
 
-	<div id="my_jumbotron" class="jumbotron jumbotron-fluid pt-5">
-  		<div class="container py-4">
+
+
+
+
+
+
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6-2 my-4">
+		<div id="my_jumbotron" class="jumbotron jumbotron-fluid pt-5 ">
+  		<div class="container col-md-6 py-4">
   			<p></p>
   			<p></p>
 		    <h1 class="jumbotron-content-h1">Hi!, </h1>
@@ -91,89 +79,95 @@
 		    <h2 id="jumbotron-content-h2">FullStack-Developer in the making.</h2>
 		    <p id="jumbotron-content-p">I'm a bootcamper at Zuitt and learning how to be a Full Stack Web Developer.</p>
 	  	</div>
-  </div>
-		<!-- end jumbotron -->
+  		</div>
+		<!-- end of jumbotron -->
 
- <p class=spacing></p>
+		
+
+		<p class=spacing></p>
       
+     <!--  <div id="anchor_contact" class="container pt-3 mx-auto"> -->
+			
        <div id="anchor_about_me" class="container-fluid pt-5">    
-					<div id="about_me_div" class="row justify-center  py-5 px-3">
+			<div id="about_me_div" class="row justify-center  py-5 px-3">
                 <div id="div_Aboutme" class="col-md-8  order-2 order-md-2 py-4 mt-3">
                     <h2 id=about_me_section>About Me</h2>
                     <p class="about_me_p p-3">Hey there! I'm Mark Elvin G. Simora an aspiring webdeveloper from Bulan Sorsogon.</p>
 
-										<p class="about_me_p p-2">I'm 27 years of age currently enrolled at Zuitt Bootcamp to be a Full Stack web developer.
-										I'm currently interested most into front-end web designing, I want to use some of the things I learned through self learning and during the bootcamp hopefuly to become a front-end webdeveloper. </p>
+					<p class="about_me_p p-2">I'm 27 years of age currently enrolled at Zuitt Bootcamp to be a Full Stack web developer.
+										I'm currently interested most into front-end web designing and still at practice, I want to use some of the things I learned through self learning and during the bootcamp hopefuly to become a front-end 
+										webdeveloper.
+					</p>
                 </div>
+
                 <div class="col-md-4  order-1 order-md-1">
                     <img  class="picme img-fluid" src="./images/gradpic400.jpg"/>
                 </div>
+
        		</div>
-		
        	</div> 
 
-<p class=spacing></p>
+			<p class=spacing></p>
+
+			<!-- end about me -->
+
+			<!-- carousel -->
 
 
-<!-- carousel -->
+<div class="container">
+	<div class="row">
+		<div class="col-12">
 
+			<div id="demo" class="carousel slide col-md-12  col-sm-auto " data-ride="carousel">
+			<h1 id="anchor_projects">My Projects</h1>
 
-
-<div id="demo" class="carousel slide col-md-12  col-sm-auto " data-ride="carousel">
-<h1 id="anchor_projects">My Projects</h1>
   <!-- Indicators -->
-  <ul class=" carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
+		  <ul class=" carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
 
-  </ul>
+		  </ul>
   
   <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      
-      <div class="container py-5">
-				  
-				  <div class="card mx-auto">
-				    <img class="card-img-top" src="./images/portfolio.jpg" alt="Card image">
-				    <div class="card-body">
-				    		<div class="py-1">
-				    			<span class="span-html">HTML</span> 
-				    			<span class="span-CSS">CSS</span>
-				    			<span class="span-BS">BootStrap</span>
-				    		</div>
-				      <h4 class="card-title">My Portfolio</h4>
-				      <p class="card-text">My very own Portfolio, as a web deveoper.</p>
-				      <a href="#navbar" class="btn btn-primary">See Profile</a>
-				    </div>
-		  		</div>
-		  </div>
+	<div class="carousel-inner">
+		    
+		    <div class="carousel-item active">
+		      
+		      <div class="container py-2">  
+						  <div class="card mx-auto">
+						    <img class="card-img-top" src="./images/portfolio.jpg" alt="Card image">
+						    <div class="card-body">
+						    		<div class="py-1">
+						    			<span class="span-html">HTML</span> 
+						    			<span class="span-CSS">CSS</span>
+						    			<span class="span-BS">BootStrap</span>
+						    		</div>
+						      <h4 class="card-title">My Portfolio</h4>
+						      <p class="card-text">My very own Portfolio, as a web deveoper.</p>
+						      <a href="#navbar" class="btn btn-primary">See Profile</a>
+						    </div>
+				  		</div>
+				  </div>
+		    </div>
 
-    </div>
-    <div class="carousel-item">
-
-    	<div class="container py-5">
-				  <div class="card mx-auto">
-				    <img class="card-img-top" src="./images/ecomerce-sneakers.jpg" alt="Card image">
-				    <div class="card-body">
-				    		<div class="py-1">
-				    			<span class="span-html">HTML</span> 
-				    			<span class="span-CSS">CSS</span>
-				    			<span class="span-BS">BootStrap</span>
-				    		</div>
-				      <h4 class="card-title">Ecommerce-Sneakers</h4>
-				      <p class="card-text">My simple Ecommerce website for sneakers.</p>
-				      <a href="#navbar" class="btn btn-primary">See Profile</a>
-				    </div>
-		  		</div>
-		  </div>
-      
-
-    </div>
-
-    
-  
-  </div>
+		    <div class="carousel-item">
+		    	<div class="container py-2">
+						  <div class="card mx-auto">
+						    <img class="card-img-top" src="./images/ecomerce-sneakers.jpg" alt="Card image">
+						    <div class="card-body">
+						    		<div class="py-1">
+						    			<span class="span-html">HTML</span> 
+						    			<span class="span-CSS">CSS</span>
+						    			<span class="span-BS">BootStrap</span>
+						    		</div>
+						      <h4 class="card-title">Ecommerce-Sneakers</h4>
+						      <p class="card-text">My simple Ecommerce website for sneakers.</p>
+						      <a href="#navbar" class="btn btn-primary">See Profile</a>
+						    </div>
+				  		</div>
+				  </div>
+		    </div>
+  	</div>
   
   <!-- Left and right controls -->
   <div id="carousel-control">
@@ -185,20 +179,25 @@
   </a>
   </div>
 </div>
+			
+
+		</div>
+	</div>
+</div>
 <!--  end carousel -->
 
-<p class=spacing></p>
-
-  <!-- map -->
-<div id="anchor_contact" class="container pt-3 mx-auto">
-<div class="row">
+			<!-- FIND ME! -->
+			<div id="anchor_contact" class="container pt-3 mx-auto">
+			<div class="row">
 			<div class="col-md-6 my-4">
 				<h2>Find Me!</h2>
 				<iframe id="map-bulan" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14086.903301865861!2d123.87467075197407!3d12.665617114116964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a0d6b9faa88aaf%3A0x7ba5be03e6198c6e!2sBulan!5e1!3m2!1sen!2sph!4v1646254865314!5m2!1sen!2sph" allowfullscreen="" loading="lazy"></iframe>
 			</div>
-			
-			<div class="col-md-6 my-4">
 
+			<!-- end FIND ME! -->
+
+			
+				<div class="col-md-6 my-4">
 
 				<!-- contact me -->
 				<h2>Contact Me!</h2>
@@ -228,17 +227,18 @@
 				</form>
 			
 					
-			</div>
-  </div>
-  </div>
+				</div>
 
-<!-- end contact me form -->
+				<!--end contact me -->
+  			</div>
+  		</div>
 
-<p class="py-3"></p>
 
-<a href="#"><p class="text-center text-danger">Back to top</p></a>
+			
+		</div>
+	</div>
 
-	<!-- pre-footer -->
+<!-- pre-footer -->
 
 	<div id="pre-footer" class="container-fluid">
 		<div class="row">
@@ -264,6 +264,8 @@
      </div>
 
   <!-- end footer -->
+	
+
 
 
 
