@@ -45,6 +45,16 @@ div + .jumbotron-content-h1 {
 
 }
 
+#main_page_div{
+	background-color: *#41436A;
+	/*background-image: linear-gradient(to top, #0a192f ,#6c2d46 );*/
+
+	/*background-image: radial-gradient(#240b36,#5c0a18 );*/
+	background-image:url(./images/,.jpg) ;
+	/*background-size: cover;*/
+
+  background-color: rgba(0, 0, 0, 0.25);
+}
 
 /*media*/
 /* Smaller than standard 960 (devices and browsers) */
@@ -62,23 +72,11 @@ div + .jumbotron-content-h1 {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
 
-	.carousel-inner {
-		padding-left: -20px;
-		width: 100%;
-		margin: auto;
-  	 	padding-bottom: 40px;
-   		max-height: 550px !important;
-	}
 }
 /**/
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (max-width: 767px) {
-	#demo {
-	width: 100% !important;
-	padding-left: -10px;
-	margin: auto;
-}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -155,10 +153,10 @@ ul#nav1 li.nav-item a.navlink{
 	/*background-image: linear-gradient(to top, #0a192f ,#6c2d46 );*/
 
 	/*background-image: radial-gradient(#240b36,#5c0a18 );*/
-	/*background-image:url(./images/bloodmoon.jpg) ;
+	background-image:url(./images/,.jpg) ;
 	background-size: cover;
-*/
-  /*background-color: rgba(0, 0, 0, 0.05);*/
+
+  background-color: rgba(0, 0, 0, 0.25);
 	padding-top: 20px;
 	width: 100%;
 	
@@ -213,6 +211,8 @@ ul#nav1 li.nav-item a.navlink{
 
 
 #pre-footer > div {
+
+	border-top: 2px ,yellow;
 	font-family: 'Merriweather', serif;
 	background-color: #0a192f;
 	background-image: linear-gradient(to right, #0a192f , #41436a);
